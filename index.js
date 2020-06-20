@@ -63,8 +63,8 @@ function placeOrder(cardNumber) {
  
   } else {
     
+    var totalFunc = total();
     cart.splice(0, cart.length);
-    
-    
-  }
+    `Your total cost is ${totalFunc}, which will be charged to the card ${cardNumber}.`;
+     }
 }
